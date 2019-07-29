@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 5px 10px -2px $block_shadow_color;
+}
+
+.menu {
+    display: flex;
+    font-weight: bold;
+    flex-basis: 1200px;
+    height: 100%;
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-basis: 1200px;
+        padding-left: 35px;
+        padding-right: 20px;
+    }
+
+    li {
+        transition: 300ms;
+        height: 100%;
+        width: 133px;
+        white-space: pre-line;
+        text-align: center;
+        padding-top: 23px;
+        padding-bottom: 16px;
+        cursor: pointer;
+        user-select: none;
+
+        &:hover {
+            color: $font_color_alt;
+            background-color: $menu_color_hover;
+        }
+    }
+}

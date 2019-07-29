@@ -1,13 +1,12 @@
 //Font
-$font_main:   'PTSans Bold, Arial, sansserif';
-$font_second: 'Toyota Display, Arial, sansserif';
-$font_third:  'Toyota Text, Arial, sansserif';
-
+$font_main: 'Toyota Display', Arial, sans-serif;
+$font_text: 'Toyota Text', Arial, sans-serif;
+$font_alt:  'PTSans Bold', Arial, sans-serif;
 
 //Size
-$font_main_size:     16px;
+$font_main_size:     18px;
 $font_main_weigth:   400;
-$line_heigth_main:   1.5;
+$line_heigth_main:   1.1;
 
 $desktop_width:      1920px;
 $desktop_width_sm:   1124px;
@@ -17,12 +16,16 @@ $phone_width:        580px;
 $phone_width_sm:     420px;
 
 //Colors
-$font_color_main:  #60759d;
- 
-$bg_color_main:    #fafaff;
-$bg_color_alt:     #f1f3fb;
+$font_color_main:  #333333;
+$font_color_alt:   #ffffff;
 
+$menu_color_hover: #e50000;
+ 
+$bg_color_main:    #ffffff;
+$bg_color_alt:     #f1f3fb;
 $bg_color_form:    linear-gradient(#e2ebf8, #e4e6f1);
 
 $button_color:     #e70067;
 $button_color_alt: #c9005a;
+
+$block_shadow_color: #f6f6f6;
