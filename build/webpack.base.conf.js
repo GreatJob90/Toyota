@@ -55,7 +55,10 @@ module.exports = {
                    options: { sourceMap: true }
                }, {
                    loader: 'resolve-url-loader',
-                   options: { sourceMap: true }
+                   options: {
+                       sourceMap: true,
+                       debug: true,
+                   }
                }, {
                    loader: 'postcss-loader',
                    options: {
@@ -77,7 +80,10 @@ module.exports = {
                     options: { sourceMap: true }
                 }, {
                     loader: 'resolve-url-loader',
-                    options: { sourceMap: true }
+                    options: {
+                        sourceMap: true,
+                        debug: true,
+                    }
                 }, {
                    loader: 'postcss-loader',
                    options: {
@@ -95,7 +101,6 @@ module.exports = {
         new CopyWebpackPlugin([
             { from: `${PATHS.src}/img/content`, to: `${PATHS.assets}img/content`},
             { from: `${PATHS.src}/favicon`, to: `${PATHS.assets}favicon`},
-            { from: `${PATHS.src}/static`, to: '' },
             { from: `${PATHS.src}/font`, to: `${PATHS.assets}font`}
         ]),
         new HtmlWebpackPlugin({

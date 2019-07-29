@@ -1,35 +1,26 @@
 //Font
-$mainFont:             'Cera Round Pro Medium';
-$mainFontReg:          'Cera Round Pro Regular';
-$mainFontBold:         'Cera Round Pro Bold';
-$mainFontLight:        'Cera Round Pro Light';
-$secondFont:           'Geometria Medium';
+$font_main:             'Cera Round Pro Medium';
 
-$thirdFont:            'Gilroy Bold';
 
 //Size
+$font_main_size:     16px;
+$font_main_weigth:   400;
+$line_heigth_main:   1.5;
 
-$mainFontSize:      16px;
-$mainFontWeight:    400;
-$mainLineHeight:    1.5;
-
-$desktopWidth:      1920px;
-$smdesktopWidth:    1124px;
-$lgtableWidth:      1080px;
-$tableWidth:        868px;
-$phoneWidth:        580px;
-$smphoneWidth:      420px;
+$desktop_width:      1920px;
+$desktop_width_sm:   1124px;
+$table_width_lg:     1080px;
+$table_width:        868px;
+$phone_width:        580px;
+$phone_width_sm:     420px;
 
 //Colors
-$mainFontColor:     #60759d;
-$secondFontColor:   #fff;    
-$mainBgColor:       #fafaff; /* about & journal */
-$secondBgColor:     #f1f3fb; /* functions */
-$thirdBgColor:      #f1f3fc; /* specialists */
-$fourthBgColor:     #39649d; /* footer */
-$formBgColor:       linear-gradient(#e2ebf8, #e4e6f1);
-$listMarkerColor:   #16afe0;
-$spanBorderColor:   #bae2f5;
-$btnColor:          #e70067;
-$btnColorAlt:       #c9005a;
-$placeholderColor:  #a8b2bf;
+$font_color_main:  #60759d;
+ 
+$bg_color_main:    #fafaff;
+$bg_color_alt:     #f1f3fb;
+
+$bg_color_form:    linear-gradient(#e2ebf8, #e4e6f1);
+
+$button_color:     #e70067;
+$button_color_alt: #c9005a;

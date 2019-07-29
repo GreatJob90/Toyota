@@ -1,26 +1,36 @@
 html {
-    font-family: $mainFont;
-    font-size: $mainFontSize;
-    color: $mainFontColor;
-    background-color: $mainBgColor;
-    line-height: $mainLineHeight;
+    font-family: $font_main;
+    font-size: $font_main_size;
+    color: $font_color_main;
+    background-color: $bg_color_main;
+    line-height: $line_heigth_main;
     height: 100%;
 
-    @media screen and (max-width: $desktopWidth) {}
+    @media screen and (max-width: $desktop_width) {
 
-    @media screen and (max-width: $smdesktopWidth) {
+    }
+
+    @media screen and (max-width: $desktop_width_sm) {
         font-size: 15px;
     }
 
-    @media screen and (max-width: $tableWidth) {
+    @media screen and (max-width: $table_width_lg) {
         font-size: 14px;
     }
 
-    @media screen and (max-width: $phoneWidth) {}
+    @media screen and (max-width: $table_width) {
+        font-size: 13px;
+    }
+
+    @media screen and (max-width: $phone_width) {
+
+    }
+
+    @media screen and (max-width: $phone_width_sm) {}
 
 }
 
-section {
+.page_wrapper {
     margin: 0 auto;
     width: 100%;
     max-width: 1920px;
