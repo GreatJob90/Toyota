@@ -1,0 +1,21 @@
+.model__car {
+    position: relative;
+    transform: translate(-9px, 91px);
+
+    &__special-price {
+        position: absolute;
+        transform: translate(356px, -173px);
+        background-image: url(/_assets/img/content/model_special_price.png);
+        width: 336px;
+        height: 76px;
+        white-space: pre-line;
+        line-height: 24px;
+        color: $font_color_alt;
+        font-family: $font_text;
+        letter-spacing: $letter_spacing_main;
+    }
+
+    p {
+        transform: translate(53px, -31px);
+    }
+}

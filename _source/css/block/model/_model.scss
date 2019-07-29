@@ -1,0 +1,16 @@
+.model {
+    display: flex;
+    justify-content: center;
+    height: 716px;
+    background-image: url(/_assets/img/content/model_bg.png);
+    background-repeat: no-repeat;
+    background-position: right 37px;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-basis: 1200px;
+        height: 100%; 
+    }
+}

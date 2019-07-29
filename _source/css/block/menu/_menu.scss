@@ -1,4 +1,6 @@
 header {
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +22,7 @@ header {
         align-items: center;
         flex-basis: 1200px;
         padding-left: 35px;
-        padding-right: 20px;
+        padding-right: 55px;
     }
 
     li {
