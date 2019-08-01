@@ -26,15 +26,12 @@ header {
     }
 
     li {
-        transition: 300ms;
         height: 100%;
         width: 133px;
         white-space: pre-line;
         text-align: center;
         padding-top: 23px;
         padding-bottom: 16px;
-        cursor: pointer;
-        user-select: none;
 
         &:hover {
             color: $font_color_alt;
