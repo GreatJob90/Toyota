@@ -1,4 +1,4 @@
-// Default
+//Default
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,26 +18,27 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-// Links
+//Links
 a {
   text-decoration: none;
   color: $font_color_main;
+
   &:active, &:hover {
     outline: 0;
   }
 }
 
-// List
+//List
 ul, li {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-// Headlines
+//Headlines
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
 
-// Default
+//Default
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: border-box; }
 :focus { outline: 0; }
@@ -46,7 +47,7 @@ img, audio, video { max-width: 100%; height: auto; }
 audio, canvas, iframe, video, img, svg { vertical-align: middle; }
 iframe { border: 0 }
 
-// From
+//Form
 textarea {
   resize: none; /*remove the resize handle on the bottom right*/
   overflow: auto;
@@ -58,6 +59,6 @@ textarea {
 input, textarea, select, button { outline: none; border: none; font-size: 100%; margin: 0;}
 button, input { line-height: normal; }
 
-// Table
+//Table
 table { border-collapse: collapse; border-spacing: 0; }
 td, th { padding: 0; text-align: left; }

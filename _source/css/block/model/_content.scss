@@ -1,0 +1,112 @@
+.model__content {
+    padding-top: 66px;
+    height: 716px;
+    position: relative;
+    transform: translate(-10px, -2px);
+
+    &__info {
+        padding-left: 32px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 430px;
+    }
+}
+
+.info__row {
+    display: flex;
+    flex-direction: row;
+
+    .benefit {
+        margin-left: 125px;
+    }
+
+    .bonus {
+        margin-left: 56px;
+    }
+}
+
+.model__content__name {
+    position: relative;
+    margin-bottom: 25px;
+    width: 237px;
+    
+
+    .model__name {
+        margin-top: 20px;
+        font-family: $font_main;
+        color: $font_color_alt;
+        font-size: 1.8rem;
+        font-weight: bold;
+        line-height: 76px;
+        letter-spacing: unset;
+        padding-left: 0;
+    }
+
+    p {
+        margin-left: 30px;
+        font-family: $font_text;
+        font-size: 1.3rem;
+        letter-spacing: $letter_spacing_main;
+        padding-left: 1.5px;
+    }
+}
+
+.info__item {
+    margin-top: 37px;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    span {
+        margin-bottom: 7px;
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid $span_line_color;
+    }
+
+    .description {
+        font-size: 0.7rem;
+        font-weight: bold;
+        
+    }
+
+    .amount {
+        font-size: 1.9rem;
+    }
+}
+
+.get-test-drive {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__icon{
+        width: 30px;
+        height: 30px;
+        background-image: url(/_assets/img/content/icon_sprite.png);
+        background-position: -12px -9px;
+    }
+
+    &__link {
+        padding-top: 5px;
+        padding-bottom: 2px;
+        margin-left: 6px;
+        font-size: 0.9rem;
+        color: $font_color_secondary;
+        border-bottom: 1px solid $font_color_secondary;
+    }
+}
+
+.get-offer {
+    margin-top: 13px;
+    margin-bottom: 11px;
+}
+
+.get-cheaper {
+    padding-top: 2px;
+    margin-left: 127px;
+    font-family: $font_text;
+    font-size: 0.9rem;
+    border-bottom: 3px dotted $font_color_secondary;
+}

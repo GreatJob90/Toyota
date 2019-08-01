@@ -1,6 +1,8 @@
 .model__car {
+    display: block;
     position: relative;
     transform: translate(-9px, 91px);
+    
 
     &__special-price {
         position: absolute;
@@ -13,6 +15,14 @@
         color: $font_color_alt;
         font-family: $font_text;
         letter-spacing: $letter_spacing_main;
+    }
+
+    &__background {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        transform: translate(0, -6px);
     }
 
     p {

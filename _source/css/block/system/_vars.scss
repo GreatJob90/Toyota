@@ -6,7 +6,7 @@ $font_alt:  'PTSans Bold', Arial, sans-serif;
 //Size
 $font_main_size:      18px;
 $font_main_weigth:    400;
-$line_heigth_main:    1.1;
+$line_heigth_main:    1.111;
 $letter_spacing_main: 0.5px;
 
 $desktop_width:      1920px;
@@ -17,16 +17,19 @@ $phone_width:        580px;
 $phone_width_sm:     420px;
 
 //Colors
-$font_color_main:  #333333;
-$font_color_alt:   #ffffff;
+$font_color_main:      #333333;
+$font_color_alt:       #ffffff;
+$font_color_secondary: #e50000;
 
-$menu_color_hover: #e50000;
+$menu_color_hover:     #e50000;
  
-$bg_color_main:    #ffffff;
-$bg_color_alt:     #f1f3fb;
-$bg_color_form:    linear-gradient(#e2ebf8, #e4e6f1);
+$bg_color_main:        #ffffff;
+$bg_color_alt:         #f1f3fb;
+$bg_color_form:          linear-gradient(#e2ebf8, #e4e6f1);
 
-$button_color:     #e70067;
-$button_color_alt: #c9005a;
+$button_color_bg:      #e50000;
+$button_color_alt:     #c9005a;
 
-$block_shadow_color: #f6f6f6;
+$block_shadow_color:   #f6f6f6;
+
+$span_line_color:      #999999;
