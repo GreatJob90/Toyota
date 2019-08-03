@@ -1,7 +1,7 @@
 .model__car {
     display: block;
     position: relative;
-    transform: translate(-9px, 91px);
+    transform: translate(0, 91px);
     
 
     &__special-price {
@@ -22,7 +22,7 @@
         position: absolute;
         z-index: -1;
         right: 0;
-        transform: translate(0, -6px);
+        transform: translate(0, -27px);
     }
 
     p {

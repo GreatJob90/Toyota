@@ -2,7 +2,7 @@
     padding-top: 66px;
     height: 716px;
     position: relative;
-    transform: translate(-10px, -2px);
+    transform: translate(0, -2px);
 
     &__info {
         padding-left: 32px;
@@ -10,6 +10,10 @@
         justify-content: flex-start;
         flex-direction: column;
         width: 430px;
+    }
+
+    &__button {
+        transform: translate(-2px, 0);
     }
 }
 
@@ -30,6 +34,7 @@
     position: relative;
     margin-bottom: 25px;
     width: 237px;
+    transform: translate(-1px, 1px);
     
 
     .model__name {
@@ -93,7 +98,6 @@
         padding-bottom: 2px;
         margin-left: 6px;
         font-size: 0.9rem;
-        color: $font_color_secondary;
         border-bottom: 1px solid $font_color_secondary;
     }
 }
@@ -101,6 +105,11 @@
 .get-offer {
     margin-top: 13px;
     margin-bottom: 11px;
+    padding-bottom: 4px;
+
+    &:hover {
+        background-color: $button_color_hover;
+    }
 }
 
 .get-cheaper {

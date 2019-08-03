@@ -1,14 +1,15 @@
 .benefit-select {
-    width: 100%;
+    position: relative;
+    z-index: 2;
     height: 150px;
     background-color: $bg_color_alt;
+    box-shadow: 0 10px 10px -2px $block_shadow_color;
 
     &__inner {
         margin: 0 auto;
         display: flex;
         justify-content: center;
         max-width: 1200px;
-        transform: translate(-9px, 0);
     }
 }
 
@@ -30,7 +31,7 @@
     }
 
     &__number {
-        opacity: 0.2;
+        opacity: 0.3;
         margin-right: 7px;
         float: left;
         font-weight: bold;
