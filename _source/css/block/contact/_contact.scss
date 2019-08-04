@@ -5,8 +5,10 @@
 }
 
 .contact__map {
-    margin-top: 54px;
-    display: flex;
-    justify-content: center;
+    margin: 54px auto 0;
+    height: 400px;
+    background-image: url(/_assets/img/content/contact_map.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
     background-color: $bg_color_map;
 }
