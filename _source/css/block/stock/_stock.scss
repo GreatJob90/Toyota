@@ -1,13 +1,6 @@
 .stock {
     padding-top: 98px;
     height: 584px;
-
-    span {
-        margin: 14px auto;
-        width: 80px;
-        display: block;
-        border-bottom: 3px solid $span_line_color_alt;
-    }
 }
 
 .stock__inner {
@@ -29,90 +22,16 @@
     }
 }
 
-.stock__inner__column {
-    flex-basis: 286px;
-    white-space: pre-line;
-    letter-spacing: 0.4px;
-}
-
-.stock__inner__column-left {
-    padding-left: 28px;
-
-    h3 {
-        transform: translate(0, -1px)
-    }
-
-    p {
-        font-family: $font_text;
-        font-size: calc(#{$font_main_size} - 1px);
-        letter-spacing: 0.6px;
-        line-height: 34px;
-        transform: translate(0, -9px)
-    }
-}
-
-.stock__inner__column-right {
-    padding-left: 13px;
-    padding-top: 19px;
-    white-space: unset;
-    font-size: 0.8rem;
-    letter-spacing: -0.1px;
-    text-transform: uppercase;
-
-    p {
-        margin-top: 15px;
-    }
-
-    strong {
-        font-family: $font_text;
-    }
-
-    small {
-        text-transform: lowercase;
-    }
-
-    .font-color-secondary {
-        font-family: $font_main;
-        letter-spacing: -0.2px;
-        font-size: 1.4rem;
-    }
-
-    .font-color-secondary:last-child {
-        padding-left: 2px;
-    }
-}
-
-.stock__column__tel {
-    padding-top: 11px;
-    text-transform: initial;
-    font-size: 0.9rem;
-    color: transparentize($font_color_main, .5);
-
-    a {
-        font-family: $font_text;
-        font-weight: bold;
-        font-size: $font_main_size;
-    }
-}
-
-.get-price {
-    text-transform: initial;
-    margin-top: 22px;
-    padding-bottom: 3px;
-
-    &:hover {
-        background-color: $button_color_hover;
-    }
-}
-
 .stock__watch-more {
-    margin-top: -25px;
+    margin: -25px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 150px;
+    cursor: pointer;
     
-    a {
+    p {
         padding-bottom: 4px;
         font-size: 0.9rem;
         color: $font_color_secondary;

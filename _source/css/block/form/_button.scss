@@ -11,4 +11,8 @@
     font-size: 0.9rem;
     cursor: pointer;
     user-select: none;
+
+    &:hover {
+        background-color: $button_color_hover;
+    }
 }
