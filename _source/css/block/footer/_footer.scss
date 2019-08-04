@@ -1,0 +1,15 @@
+.footer {
+    height: 80px;
+    background-color: $bg_color_footer;
+
+    &__inner {
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-left: 1px;
+        max-width: 1200px;
+        font-family: $font_text;
+        font-size: 0.8rem;
+        letter-spacing: -0.1px;
+        color: transparentize($font_color_main, 0.6)
+    }
+}
