@@ -115,3 +115,124 @@
     font-size: 0.9rem;
     border-bottom: 3px dotted $font_color_secondary;
 }
+
+@media screen and (max-width: $table_width) {
+    .model__content {
+        padding-top: 0;
+        width: 100%;
+        height: auto;
+
+        &__info {
+            margin: 0 auto;
+            padding-left: 0px;
+            width: 400px;
+        }
+    }
+
+    .model__content__info .gift {
+        margin-top: 10px;
+        text-align: center;
+
+        span {
+            margin: 0 auto 7px;
+        }
+    }
+
+    .get-test-drive {
+        margin-top: 13px;
+    }
+
+    .info__row {
+        justify-content: space-between;
+
+        .benefit {
+            margin-left: 0px;
+        }
+
+        .bonus {
+            margin-left: 0px;
+            margin-right: 80px;
+        }
+    }
+
+    .info__item {
+        margin-top: 27px;
+
+        .description {
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+    }
+
+    .model__content__name {
+        margin-bottom: 0px;
+        width: 120px;
+        transform: translate(0, -300px);
+
+        .model__name {
+            font-size: 1rem;
+            line-height: 24px;
+        }
+
+        p {
+            margin-left: 20px;
+            font-size: 0.9rem;
+        }
+    }
+
+    .model__content__button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .model__car__background {
+        transform: translate(0, 0);
+    }
+}
+
+@media screen and (max-width: $phone_width) {
+   .model__content__name {
+       transform: translate(0, -220px);
+   }
+
+    .info__row {
+        .bonus {
+            margin-right: 74px;
+        }
+    }
+
+    .model__content {
+         &__info {
+            width: 350px;
+        }
+    }
+}
+
+@media screen and (max-width: $phone_width_sm) {
+    .model__content__name {
+        transform: translate(0, -160px);
+    }
+
+    .info__row {
+        .bonus {
+            margin-right: 64px;
+        }
+    }
+
+    .model__content {
+        &__info {
+            width: 250px;
+        }
+    }
+
+    .model__content__info .gift {
+        margin-top: 10px;
+        text-align: left;
+
+        span {
+            margin: 0 0 7px 0;
+        }
+    }
+}

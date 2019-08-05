@@ -11,15 +11,16 @@
 }
 
 .form__inner {
-        margin-top: 35px;
+        margin: 35px auto 0;
         display: flex;
         justify-content: center;
+        width: 630px;
 
         &__shadow {
             position: absolute;
             border-radius: 25px;
             z-index: 0;
-            width: 630px;
+            width: 520px;
             height: 50px;
             box-shadow: 0 1px 4px -2px $block_shadow_color_alt;
         }
@@ -33,3 +34,31 @@
     }
 }
 
+@media screen and (max-width: $table_width) {
+    .form__inner {
+        width: 520px;
+
+        &__shadow {
+            width: 410px;
+        }
+    }
+}
+
+@media screen and (max-width: $phone_width) {
+    .form__inner {
+        width: 100%;
+
+        &__shadow {
+            width: 100%;
+            border-radius: 0;
+        }
+
+        .form__get-offer {
+            width: 230px;
+            border-radius: 0;
+            transform: translate(0, 0);
+        }
+    }
+
+    
+}

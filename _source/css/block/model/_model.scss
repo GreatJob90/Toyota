@@ -13,3 +13,31 @@
         max-width: 1920px;
     }
 }
+
+@media screen and (max-width: $table_width_lg) {
+    .model {
+        height: 616px;
+    }
+}
+
+@media screen and (max-width: $table_width) {
+    .model {
+        height: 800px;
+        &__inner {
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+        }
+    }
+}
+
+@media screen and (max-width: $phone_width) {
+    .model {
+        height: 740px;
+    }
+}
+
+@media screen and (max-width: $phone_width_sm) {
+    .model {
+        height: 640px;
+    }
+}

@@ -69,3 +69,48 @@
     margin-top: 22px;
     padding-bottom: 3px;
 }
+
+@media screen and (max-width: $phone_width) {
+    .stock__inner__column-left {
+        padding-left: 16px;
+
+        p {
+            font-size: 0.6rem;
+            line-height: 24px;
+        }
+    }
+
+    .stock__inner__column-right {
+        padding-top: 5px;
+
+        p {
+            margin-top: 5px;
+        }
+    }
+
+    .get-price {
+        width: 200px;
+        margin-right: 45px;
+    }
+}
+
+@media screen and (max-width: $phone_width_sm) {
+        .stock__inner__column-left {
+            flex-basis: 151px;
+
+            p {
+                font-size: 0.9rem;
+                line-height: 20px;
+            }
+        }
+
+        .stock__inner__column-right {
+            padding-top: 0px;
+            flex-basis: 180px;
+        }
+
+        .get-price {
+            width: 200px;
+            margin: 15px auto 0;
+        }
+}

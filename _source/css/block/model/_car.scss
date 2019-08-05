@@ -3,7 +3,6 @@
     position: relative;
     transform: translate(0, 91px);
     
-
     &__special-price {
         position: absolute;
         transform: translate(356px, -173px);
@@ -27,5 +26,33 @@
 
     p {
         transform: translate(53px, -31px);
+    }
+}
+
+@media screen and (max-width: $desktop_width_sm) {
+    .model__car {
+        &__special-price {
+            transform: translate(100px, -173px);
+        }
+    }
+}
+
+@media screen and (max-width: $table_width_lg) {
+    .model__car {
+        &__special-price {
+            margin: 0 auto;
+            position: relative;
+            transform: translate(-5px, -150px);
+        }
+    }
+}
+
+@media screen and (max-width: $table_width) {
+    .model__car {
+        transform: translate(0, 70px);
+
+        &__special-price {
+            display: none;
+        }
     }
 }

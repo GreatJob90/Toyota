@@ -6,12 +6,17 @@ html {
     line-height: $line_heigth_main;
     height: 100%;
 
-    @media screen and (max-width: $desktop_width) {
-
-    }
-
     @media screen and (max-width: $desktop_width_sm) {
         font-size: 15px;
+        .model__inner,
+        .benefit-select__inner,
+        .stock__inner,
+        .form__inner,
+        .term__inner,
+        .footer__inner {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
     }
 
     @media screen and (max-width: $table_width_lg) {
@@ -23,10 +28,17 @@ html {
     }
 
     @media screen and (max-width: $phone_width) {
-
+        font-size: 12px;
+        
+        .form__inner {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
     }
 
-    @media screen and (max-width: $phone_width_sm) {}
+    @media screen and (max-width: $phone_width_sm) {
+        font-size: 11px;
+    }
 
 }
 
@@ -44,6 +56,10 @@ h1, h2 {
 h3 {
     font-weight: bold;
     font-size: 1.3rem;
+}
+
+.hidden {
+    display: none;
 }
 
 .font-color-secondary {

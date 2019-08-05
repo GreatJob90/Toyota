@@ -38,3 +38,109 @@ header {
         }
     }
 }
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: $desktop_width_sm) {
+    .menu {
+        ul {
+            padding-left: 10px;
+            padding-right: 10px;
+            justify-content: center;
+        }
+
+        li {
+            width: 110px;
+        }
+    }
+}
+
+@media screen and (max-width: $table_width_lg) {
+    header {
+        height: 80px;
+    }
+
+    .menu {
+        li {
+            width: 90px;
+            font-size: 0.9rem;
+        }
+    }
+}
+
+@media screen and (max-width: $table_width) {
+    header {
+        height: 80px;
+    }
+
+    .menu {
+        li {
+            width: 62px;
+            font-size: 0.7rem;
+        }
+    }
+}
+
+@media screen and (max-width: $phone_width) {
+    header {
+        height: 45px;
+    }
+
+    .menu {
+        ul {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        li {
+            width: 44px;
+            font-size: 0.5rem;
+            padding-top: 10px;
+            padding-bottom: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: $phone_width_sm) {
+    .menu {
+        display: none;
+        position: absolute;
+        transform: translate(34px, 128px);
+        
+        ul {
+            flex-direction: column;
+            
+        }
+
+        li {
+            margin-top: 1px;
+            background-color: $bg_color_main;
+            width: 230px;
+            font-size: 0.9rem;
+            padding-top: 5px;
+            padding-bottom: 8px;
+            white-space: nowrap;
+        }
+    }
+
+    .mobile-menu {
+        width: calc(100% - 20px);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        font-size: 16px;
+
+        &__icon {
+            width: 30px;
+            height: 30px;
+            background-image: url(/_assets/img/content/icon_sprite.png);
+            background-position: -120px 0;
+            background-size: 150px;
+            background-repeat: no-repeat;
+        }
+    }
+}

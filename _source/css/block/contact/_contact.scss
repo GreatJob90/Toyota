@@ -12,3 +12,33 @@
     background-repeat: no-repeat;
     background-color: $bg_color_map;
 }
+
+@media screen and (max-width: $desktop_width_sm) {
+    .contact__map {
+        margin: 60px auto 0;
+    }
+}
+
+@media screen and (max-width: $table_width_lg) {
+    .contact__map {
+        margin: 63px auto 0;
+    }
+}
+
+@media screen and (max-width: $table_width) {
+    .contact__map {
+        margin: 64px auto 0;
+    }
+}
+
+@media screen and (max-width: $phone_width) {
+    .contact__map {
+        margin: 67px auto 0;
+    }
+}
+
+@media screen and (max-width: $phone_width_sm) {
+    .contact__map {
+        margin: 69px auto 0;
+    }
+}

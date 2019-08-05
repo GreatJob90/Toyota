@@ -59,3 +59,44 @@
         background-position: -150px -15px;
     }
 }
+
+@media screen and (max-width: $table_width) {
+    .term {
+        height: 450px;
+    }
+
+    .term__inner {
+        &__text {
+            font-size: 0.7rem;
+            line-height: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: $phone_width) {
+    .term {
+        height: 450px;
+    }
+
+    .term__inner {
+        &__text {
+            font-size: 0.6rem;
+        }
+    }
+
+    .term__inner__up-button {
+        width: 35px;
+        height: 35px;
+        background-position: -57px -7px;
+    }
+
+    .term__inner__action-up {
+        margin-top: 28px;
+    }
+}
+
+@media screen and (max-width: $phone_width) {
+    .term {
+        height: 470px;
+    }
+}
