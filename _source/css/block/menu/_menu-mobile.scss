@@ -1,0 +1,69 @@
+.menu-mobile,
+.nav-trigger,
+label[for="nav-trigger"] {
+    display: none;
+}
+
+@media screen and (max-width: $phone_width_sm) {
+    .nav-trigger {
+        display: initial;
+        position: absolute;
+        clip: rect(0, 0, 0, 0);
+    }
+
+    label[for="nav-trigger"] {
+        display: initial;
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        z-index: 2;
+        width: 30px;
+        height: 30px;
+        background-image: url(/_assets/img/content/icon_sprite.png);
+        background-position: -120px 0;
+        background-size: 150px;
+        background-repeat: no-repeat;
+    }
+
+    /* .nav-trigger:checked+label {
+        transform: translate(-120px, 0);
+    } */
+
+    .nav-trigger:checked~.menu {
+        transform: translate(130px, 155px);
+    }
+
+    .menu {
+        transition: 400ms;
+        display: flex;
+        position: absolute;
+        transform: translate(330px, 155px);
+
+        ul {
+            flex-direction: column;
+        }
+
+        li {
+            margin-top: 0px;
+            background-color: $bg_color_main;
+            width: 230px;
+            text-align: left;
+            font-size: 0.9rem;
+            padding-top: 10px;
+            padding-bottom: 8px;
+            padding-left: 10px;
+            white-space: nowrap;
+            border-bottom: 2px solid $font_color_main;
+        }
+    }
+
+    .menu-mobile {
+        width: calc(100% - 20px);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}

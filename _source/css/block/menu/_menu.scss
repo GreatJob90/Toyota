@@ -39,10 +39,6 @@ header {
     }
 }
 
-.mobile-menu {
-    display: none;
-}
-
 @media screen and (max-width: $desktop_width_sm) {
     .menu {
         ul {
@@ -99,48 +95,6 @@ header {
             font-size: 0.5rem;
             padding-top: 10px;
             padding-bottom: 12px;
-        }
-    }
-}
-
-@media screen and (max-width: $phone_width_sm) {
-    .menu {
-        display: none;
-        position: absolute;
-        transform: translate(34px, 128px);
-        
-        ul {
-            flex-direction: column;
-            
-        }
-
-        li {
-            margin-top: 1px;
-            background-color: $bg_color_main;
-            width: 230px;
-            font-size: 0.9rem;
-            padding-top: 5px;
-            padding-bottom: 8px;
-            white-space: nowrap;
-        }
-    }
-
-    .mobile-menu {
-        width: calc(100% - 20px);
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        font-weight: bold;
-        font-size: 16px;
-
-        &__icon {
-            width: 30px;
-            height: 30px;
-            background-image: url(/_assets/img/content/icon_sprite.png);
-            background-position: -120px 0;
-            background-size: 150px;
-            background-repeat: no-repeat;
         }
     }
 }

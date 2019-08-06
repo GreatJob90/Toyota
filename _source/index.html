@@ -18,39 +18,40 @@
 <body>
     <div class="page-wrapper">
         <header>
-            <nav class="mobile-menu" role="link">
+            <nav class="menu-mobile">
                 <p>Модели</p>
-                <div class="mobile-menu__icon"></div>
             </nav>
+            <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+            <label for="nav-trigger"></label>
             <div class="menu">
                 <ul>
-                    <li class="menu-button" role="link">
+                    <li class="menu-button js-corolla">
                         Corolla
                     </li>
-                    <li class="menu-button" role="link">
+                    <li class="menu-button js-camry">
                         Camry
                     </li>
-                    <li class="menu-button" role="link">
+                    <li class="menu-button js-rav">
                         RAV4
                     </li>
-                    <li class="menu-button" role="link">
+                    <li class="menu-button js-highlander">
                         Highlander
                     </li>
-                    <li class="menu-button prado" role="link">
+                    <li class="menu-button js-prado">
                         Land Cruiser
                         Prado
                     </li>
-                    <li class="menu-button" role="link">
+                    <li class="menu-button js-lc200">
                         Land Cruiser
                         200
                     </li>
-                    <li class="menu-button" role="link">
+                    <li class="menu-button js-hilux">
                         Hilux
                     </li>
-                    <li class="menu-button" role="link">
+                    <li class="menu-button js-fortuner">
                         Fortuner
                     </li>
-                    <li class="menu-button" role="link">
+                    <li class="menu-button js-prius">
                         Prius
                     </li>
                 </ul>
@@ -61,28 +62,28 @@
             <div class="model__inner">
                 <div class="model__content">
                     <div class="model__content__name">
-                        <p class="model__name">Fortuner</p>
+                        <p class="model__name fortuner">Fortuner</p>
                         <img src="/_assets/img/content/model_name_bg.png" alt="">
-                        <p>Ты настоящий</p>
+                        <p class="fortuner">Ты настоящий</p>
                     </div>
                     <div class="model__content__info">
-                        <div class="info__row">
+                        <div class="info__row fortuner">
                             <div class="info__item loan">
                                 <span></span>
                                 <p class="description">кредит в день от</p>
-                                <p class="amount"><strong>304 &#8381</strong>*</p>
+                                <p class="amount"><strong>304 &#8381;</strong>*</p>
                             </div>
                             <div class="info__item benefit">
                                 <span></span>
                                 <p class="description">выгода до</p>
-                                <p class="amount"><strong>365 000 &#8381</strong>*</p>
+                                <p class="amount"><strong>365 000 &#8381;</strong>*</p>
                             </div>
                         </div>
-                        <div class="info__row">
+                        <div class="info__row fortuner">
                             <div class="info__item discount">
                                 <span></span>
                                 <p class="description">скидка по trade-in до</p>
-                                <p class="amount"><strong>150 000 &#8381</strong>*</p>
+                                <p class="amount"><strong>150 000 &#8381;</strong>*</p>
                             </div>
                             <div class="info__item bonus">
                                 <span></span>
@@ -90,7 +91,7 @@
                                 <p class="amount"><strong>3 ТО</strong></p>
                             </div>
                         </div>
-                        <div class="info__item gift">
+                        <div class="info__item gift fortuner">
                             <span></span>
                             <p class="description">в подарок</p>
                             <p class="amount"><strong>зимние шины</strong></p>
@@ -105,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="model__car">
+                <div class="model__car fortuner">
                     <div class="model__car__special-price">
                         <p>
                             Специальная цена
@@ -114,7 +115,7 @@
                     </div>
                     <img src="/_assets/img/content/model_car_fortuner.png" alt="">
                 </div>
-                <div class="model__car__background">
+                <div class="model__car__background fortuner">
                     <img src="/_assets/img/content/model_bg_fortuner.png" alt="">
                 </div>
             </div>
@@ -169,10 +170,10 @@
             <h1>Автомобили в наличии</h1>
             <span class="span-line"></span>
             <div class="stock__inner">
-                <div class="stock__inner__car">
+                <div class="stock__inner__car fortuner">
                     <img src="/_assets/img/content/stock_car_fortuner.png" alt="">
                 </div>
-                <div class="stock__inner__info">
+                <div class="stock__inner__info fortuner">
                     <div class="stock__inner__column stock__inner__column-left">
                         <h3>Fortuner</h3>
                         <p> Год выпуска: 2016
@@ -184,10 +185,10 @@
                     </div>
                     <div class="stock__inner__column stock__inner__column-right">
                         <p>
-                            <strong>выгода до</strong><strong class="font-color-secondary"> 100 500 &#8381</strong>
+                            <strong>выгода до</strong><strong class="font-color-secondary"> 100 500 &#8381;</strong>
                         </p>
                         <p>
-                            <strong>в кредит от</strong><strong class="font-color-secondary"> 5 000 &#8381/<small>мес</small></strong>
+                            <strong>в кредит от</strong><strong class="font-color-secondary"> 5 000 &#8381;/<small>мес</small></strong>
                         </p>
                         <p class="stock__column__tel">
                             Подробнее: <a href="tel:+73512111010">+7 (351)211-10-10</a>
@@ -206,7 +207,7 @@
             <h2>Уникальное предложение!</h2>
             <span class="span-line"></span>
             <p>Получите максимально выгодные условия на покупку <strong>Toyota</strong></p>
-            <form class="form__inner" action="">
+            <form class="form__inner" action="sendmail.php">
                 <input class="form__get-offer__input" type="number" placeholder="Введите номер телефона"><div class="button form__get-offer">Получить предложение</div>
                 <div class="form__inner__shadow"></div>
             </form>

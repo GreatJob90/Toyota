@@ -1,5 +1,16 @@
-/* import $ from 'jquery';
+import $ from 'jquery';
 
+ $(document).ready(function () {
+
+    /*  $(document).on('click', '.menu-button', function () {
+         $('.menu').css('display', 'none');
+         $('#nav-trigger').prop('checked', false);
+
+         console.log($('#nav-trigger').prop('checked'));
+     }); */
+    
+});
+/*
 window.addEventListener('DOMContentLoaded', () => {
 
     let inputEmail = document.getElementById('email'),
