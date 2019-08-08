@@ -25,10 +25,6 @@ label[for="nav-trigger"] {
         background-repeat: no-repeat;
     }
 
-    /* .nav-trigger:checked+label {
-        transform: translate(-120px, 0);
-    } */
-
     .nav-trigger:checked~.menu {
         transform: translate(130px, 155px);
     }

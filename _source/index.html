@@ -58,6 +58,33 @@
             </div>
         </header>
 
+        <div class="modal-form-bg modal-close" id="js-modal-form-bg">
+            <div class="modal-form" id="js-modal-form">
+                <div class="modal-form__close" id="js-modal-close">&#215;</div>
+                <div class="modal-form__inner">
+                    <h2>Заказать оценку автомобиля</h2>
+                    <span class="span-line"></span>
+                    <p>Заполните форму ниже,
+                       чтобы заказать оценку вашего автомобиля
+                    </p>
+                    <form action="sendmail.php" class="modal-form__trade-in">
+                        <input type="text" class="trade-in__input input-wide" placeholder="Имя" tabindex="1">
+                        <input type="tel" class="trade-in__input input-wide" placeholder="Телефон" tabindex="2">
+                        <div class="modal-form__trade-in__row">
+                            <input type="text" class="trade-in__input input__row" placeholder="Автомобиль" tabindex="3">
+                            <input type="number" class="trade-in__input input__row" min="1885" max="2999" placeholder="Год" tabindex="4">
+                        </div>
+                        <div class="button get-trade-in">Заказать оценку</div>
+                        <label>
+                            <input type="checkbox" class="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="checkbox__label">Я согласен с <a href="">условиями обработки персональных данных</a></span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <div class="model">
             <div class="model__inner">
                 <div class="model__content">
@@ -101,7 +128,7 @@
                                 <div class="get-test-drive__icon"></div>
                                 <a class="get-test-drive__link font-color-secondary" href="">Записаться на Тест-драйв</a>
                             </div>
-                            <div class="button get-offer">Получить предложение</div>
+                            <div class="button get-offer" id="js-get-offer">Получить предложение</div>
                             <a class="get-cheaper" href="">Нашли дешевле?</a>
                         </div>
                     </div>
