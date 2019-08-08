@@ -54,12 +54,31 @@
     }
 }
 
-.benefit-select__item:hover {
-    background-color: $menu_color_hover;
-
-    & .benefit-select__item__number {
-        opacity: 1;
+.benefit-select__item {
+    &:hover {
+        & .benefit-select__item__number {
+            opacity: 1;
+        }
     }
+
+    &:active {
+        & .benefit-select__item__number {
+            opacity: 1;
+        }
+    }
+
+    &:focus {
+        & .benefit-select__item__number {
+            opacity: 1;
+        }
+    }
+
+    &:visited {
+        & .benefit-select__item__number {
+            opacity: 0.7;
+        }
+    }
+    
 }
 
 @media screen and (max-width: $table_width_lg) {

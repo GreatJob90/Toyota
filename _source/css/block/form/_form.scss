@@ -14,13 +14,12 @@
         margin: 35px auto 0;
         display: flex;
         justify-content: center;
-        width: 630px;
 
         &__shadow {
             position: absolute;
             border-radius: 25px;
             z-index: 0;
-            width: 520px;
+            width: 632px;
             height: 50px;
             box-shadow: 0 1px 4px -2px $block_shadow_color_alt;
         }

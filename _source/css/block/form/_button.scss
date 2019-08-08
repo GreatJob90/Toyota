@@ -15,4 +15,16 @@
     &:hover {
         background-color: $button_color_hover;
     }
+
+    &:active {
+        background-color: $button_color_hover;
+    }
+
+    &:focus {
+        background-color: $button_color_hover;
+    }
+
+    &:visited {
+        background-color: transparentize($button_color_hover, 0.7);
+    }
 }

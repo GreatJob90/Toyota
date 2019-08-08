@@ -36,29 +36,62 @@ ul, li {
 }
 
 //Headlines
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
 
 //Default
-html { box-sizing: border-box; }
-*, *:before, *:after { box-sizing: border-box; }
-:focus { outline: 0; }
+html {
+  box-sizing: border-box;
+}
 
-img, audio, video { max-width: 100%; height: auto; }
-audio, canvas, iframe, video, img, svg { vertical-align: middle; }
-iframe { border: 0 }
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: 0;
+}
+
+img, audio, video {
+  max-width: 100%;
+  height: auto;
+}
+
+audio, canvas, iframe, video, img, svg {
+  vertical-align: middle;
+}
+
+iframe {
+  border: 0
+}
 
 //Form
 textarea {
-  resize: none; /*remove the resize handle on the bottom right*/
+  resize: none;
   overflow: auto;
   vertical-align: top;
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
 }
-input, textarea, select, button { outline: none; border: none; font-size: 100%; margin: 0;}
-button, input { line-height: normal; }
+
+input, textarea, select, button {
+  outline: none;
+  border: none;
+  font-size: 100%;
+  margin: 0;
+}
+button, input {
+  line-height: normal;
+}
 
 //Table
-table { border-collapse: collapse; border-spacing: 0; }
-td, th { padding: 0; text-align: left; }
+table {
+  border-collapse: collapse; border-spacing: 0;
+}
+
+td, th {
+  padding: 0; text-align: left;
+}

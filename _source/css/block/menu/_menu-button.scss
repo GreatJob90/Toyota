@@ -2,4 +2,20 @@
     transition: 300ms;
     cursor: pointer;
     user-select: none;
+
+    &:hover {
+        background-color: $menu_color_hover;
+    }
+
+    &:active {
+        background-color: $menu_color_hover;
+    }
+
+    &:focus {
+        background-color: $menu_color_hover;
+    }
+
+    &:visited {
+        background-color: transparentize($menu_color_hover, 0.7);
+    }
 }
