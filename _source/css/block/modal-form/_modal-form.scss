@@ -152,3 +152,43 @@
 .modal-close {
     display: none;
 }
+
+@media screen and (max-width: $phone_width) {
+    .modal-form {
+        padding: 10px 10px 44px 10px;
+        border-radius: 10px;
+        width: 280px;
+    }
+
+    .modal-form__inner {
+        width: 100%;
+    }
+
+    .modal-form__trade-in {
+        .input-wide {
+            width: 250px;
+        }
+
+        label {
+            width: 100%;
+        }
+    }
+
+    .modal-form__trade-in__row {
+        width: 250px;
+
+        .input__row:first-child {
+            width: 160px;
+        }
+
+        .input__row:last-child {
+            width: 70px;
+        }
+    }
+
+    .modal-form__inner {
+        .get-trade-in {
+            width: 200px;
+        }
+    }
+}
