@@ -21,15 +21,20 @@
 }
 
 .stock__inner__column-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding-left: 13px;
     padding-top: 19px;
+    padding-bottom: 20px;
     white-space: unset;
     font-size: 0.8rem;
     letter-spacing: -0.1px;
     text-transform: uppercase;
 
     p {
-        margin-top: 15px;
+        margin-top: 5px;
+        line-height: 0.5;
     }
 
     strong {
@@ -65,8 +70,9 @@
 }
 
 .get-price {
+    min-height: 50px;
     text-transform: initial;
-    margin-top: 22px;
+    margin-top: 10px;
     padding-bottom: 3px;
 }
 

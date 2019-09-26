@@ -80,12 +80,13 @@
         font-family: $font_text;
         font-size: 0.9rem;
         padding-left: 20px;
+        vertical-align: middle;
 
         &::placeholder {
             font-family: $font_text;
             font-size: 0.8rem;
             color: transparentize($font_color_main, 0.7);
-            padding-bottom: 14px;
+            line-height: 40px;
         }
     }
 

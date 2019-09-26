@@ -9,7 +9,6 @@
 
     &::placeholder {
         font-size: 0.9rem;
-        transform: translate(0, -2px);
         color: transparentize($font_color_main, .6)
     }
 }
