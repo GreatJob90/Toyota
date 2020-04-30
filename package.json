@@ -40,6 +40,6 @@
   },
   "dependencies": {
     "css-url-relative-plugin": "^1.0.0",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
